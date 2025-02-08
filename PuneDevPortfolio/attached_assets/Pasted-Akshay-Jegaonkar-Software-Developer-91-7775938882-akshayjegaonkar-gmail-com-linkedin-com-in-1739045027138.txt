@@ -1,0 +1,54 @@
+Akshay Jegaonkar 
+Software Developer
+ +91-7775938882 • akshayjegaonkar@gmail.com • linkedin.com/in/akshay-jegaonkar • github.com/jegaonkar
+ Enthusiastic software developer with expertise in Python, Django, and SQL, and a strong foundation in front-end
+ frameworks like React.js . Passionate about learning new technologies, system integration, and automation. Known for
+ delivering high-quality results, strong communication, and effective co laboration.
+ WORK EXPERIENCE
+ ________________________________________________________________________________________
+ TNP Event Planners
+ Software Developer
+ ●
+ ●
+ Developed websites using React.js, focusing on creating dynamic and responsive user interfaces, while
+ collaborating in an Agile environment and managing tasks through Atlassian Jira.
+ Played the role of project manager by coordinating team activities, setting deadlines, and ensuring successful
+ project delivery within the defined scope and timeline.
+ InvictIQ
+ Junior Software Developer Intern
+ ●
+ ●
+ ●
+ Gained experience in front-end development, API integration, and working with Angular, enhancing my
+ technical skills and deepening my understanding of modern web development practices.
+ Emphasized the importance of collaboration, problem-solving, and effective communication.
+ Regularly used tools like Slack and Azure DevOps to manage software projects and coordinate with team
+ members, ensuring smooth workflows and successful project outcomes.
+ PROJECT
+ ________________________________________________________________________________________
+ EmpTrack — Employee Management System
+ Built a system for adding, removing, and managing employees with secure authentication, role-based access,
+ and real-time updates. Features include department assignments, salary management, and a user-friendly
+ dashboard.
+ Technologies Used: Django, HTML, CSS, Bootstrap, JavaScript, SQLite
+ Tweeeet — Microblogging Platform
+ Developed a Twitter-like social media platform, enhancing real-time interactions, user engagement, and
+ responsive design. Implemented authentication, post creation, and follow system features.
+ Technologies Used: Django, HTML, CSS, Bootstrap, JavaScript, SQLite
+ EDUCATION
+ ________________________________________________________________________________________
+ Master of Computer Applications
+ Savitribai Phule Pune University (SPPU), Pune | CGPA: 7.98 (First Year)
+ Bachelor of Computer Applications
+ Dr. Babasaheb Ambedkar Marathwada University | Percentage: 74.44%
+ SKILLS
+ ________________________________________________________________________________________
+ Programming Languages: Python (Proficient), JavaScript (Intermediate)
+ Frameworks & Libraries: Django (Proficient), Angular (Intermediate), React.js (Intermediate)
+ Web Development: HTML/CSS (Proficient), Bootstrap
+ Databases: MySQL (Proficient), MongoDB (Intermediate)
+ Version Control: Git (Proficient)
+ Project Management & Collaboration Tools: Agile Methodologies, Atlassian Jira, Project Management
+ (Intermediate)
+ Additional Interests: Model-Based System Engineering (Beginner), System Integration (Beginner),
+ Automation (Basic Understanding)
