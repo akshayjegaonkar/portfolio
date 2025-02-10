@@ -9,31 +9,34 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
-  plugins: [
-    react(),
-    runtimeErrorOverlay(),
-    themePlugin()
-  ],
+  plugins: [react(), runtimeErrorOverlay(), themePlugin()],
+  root: path.resolve(__dirname, "client"),  // Explicit root directory
+  base: '/',  // Base path for assets
+  
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "client", "src"),
-      "@shared": path.resolve(__dirname, "shared"),
-    },
+      "@": path.resolve(__dirname, "client/src"),
+      "@shared": path.resolve(__dirname, "shared")
+    }
   },
-  root: path.resolve(__dirname, "client"),
+
   build: {
-    outDir: path.resolve(__dirname, "dist/public"),
+    outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
     rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "client/index.html")  // Explicit entry point
+      },
       output: {
         manualChunks: {
-          react: ["react", "react-dom"],
-          vendors: ["lodash", "axios"],
-        },
-      },
-    },
+          react: ['react', 'react-dom'],
+          vendor: ['lodash', 'moment']
+        }
+      }
+    }
   },
-  define: {
-    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+
+  optimizeDeps: {
+    include: ['react', 'react-dom']
   }
 });
