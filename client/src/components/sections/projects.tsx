@@ -6,6 +6,20 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
+    "title": "Django URL Shortener",
+    "description": "A lightweight URL shortening service built with Django and leveraging the django-url-shortener package. Implements core features including custom short code generation, URL expiration controls, and click tracking analytics. Designed with Django's built-in security features and admin interface.",
+    "tech": [
+      "Django",
+      "Python",
+      "django-url-shortener package",
+      "SQLite/PostgreSQL",
+      "HTML/CSS",
+      "JavaScript (basic frontend)"
+    ],
+    "github": "https://github.com/akshayjegaonkar/URL-Shortener-Application",
+    "demo": null
+  },
+  {
     title: "EmpTrack — Employee Management System",
     description: "Built a system for adding, removing, and managing employees with secure authentication, role-based access, and real-time updates. Features include department assignments, salary management, and a user-friendly dashboard.",
     tech: ["Django", "HTML", "CSS", "Bootstrap", "JavaScript", "SQLite"],
@@ -16,15 +30,12 @@ const projects = [
     title: "Tweeeet — Microblogging Platform",
     description: "Developed a Twitter-like social media platform, enhancing real-time interactions, user engagement, and responsive design. Implemented authentication, post creation, and follow system features.",
     tech: ["Django", "HTML", "CSS", "Bootstrap", "JavaScript", "SQLite"],
-    github: "https://github.com/jegaonkar/tweeeet",
-    demo: "https://tweeeet-demo.herokuapp.com",
+    github: "https://github.com/akshayjegaonkar/Tweet-project",
   },
   {
     title: "TNP Event Planners Website",
     description: "Developed websites using React.js, focusing on creating dynamic and responsive user interfaces, while collaborating in an Agile environment and managing tasks through Atlassian Jira.",
     tech: ["React.js", "HTML", "CSS", "JavaScript", "Jira"],
-    github: "https://github.com/jegaonkar/tnp-events",
-    demo: "https://tnp-events.com",
   },
 ];
 
