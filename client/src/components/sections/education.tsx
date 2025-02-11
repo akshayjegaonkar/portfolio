@@ -6,14 +6,14 @@ const education = [
     degree: "Master of Computer Applications (MCA)",
     institution: "Savitribai Phule Pune University (SPPU)",
     location: "Pune, Maharashtra",
-    duration: "2022 - Present",
+    duration: "2023 - Present",
     details: "Currently pursuing MCA with CGPA: 7.98 (First Year)",
   },
   {
     degree: "Bachelor of Computer Applications (BCA)",
     institution: "Dr. Babasaheb Ambedkar Marathwada University",
     location: "Maharashtra",
-    duration: "2019 - 2022",
+    duration: "",
     details: "Completed BCA with 74.44%",
   },
 ];

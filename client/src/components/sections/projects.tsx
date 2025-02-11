@@ -5,6 +5,18 @@ import { Button } from "@/components/ui/button";
 import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
+
+  {
+    "title": "Codopedia — E-Learning Site",
+    "description": "Created a multilingual programming e-learning platform that provides interactive lessons and resources for learning various programming languages. The platform supports beginners and advanced learners with quizzes, coding exercises, and progress tracking.",
+    "tech": ["HTML", "CSS", "JavaScript", "MySQL", "PHP"]
+  },
+  {
+    "title": "GroMart — B2B E-Commerce Site",
+    "description": "Developed an interactive B2B E-commerce platform that connects businesses, enabling them to efficiently buy and sell products online. The platform includes a user-friendly interface, secure payment integration, and a robust inventory management system.",
+    "tech": ["HTML", "CSS", "JavaScript", "MySQL", "PHP"]
+  },
+  
   {
     "title": "Django URL Shortener",
     "description": "A lightweight URL shortening service built with Django and leveraging the django-url-shortener package. Implements core features including custom short code generation, URL expiration controls, and click tracking analytics. Designed with Django's built-in security features and admin interface.",

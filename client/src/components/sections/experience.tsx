@@ -7,7 +7,7 @@ const experiences = [
   {
     title: "Software Developer",
     company: "TNP Event Planners",
-    period: "2023 - Present",
+    period: "",
     responsibilities: [
       "Developed websites using React.js, focusing on creating dynamic and responsive user interfaces",
       "Collaborated in an Agile environment and managed tasks through Atlassian Jira",
@@ -18,7 +18,7 @@ const experiences = [
   {
     title: "Junior Software Developer Intern",
     company: "InvictIQ",
-    period: "2022 - 2023",
+    period: "",
     responsibilities: [
       "Gained experience in front-end development and API integration",
       "Worked with Angular, enhancing technical skills in modern web development",
