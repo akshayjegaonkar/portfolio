@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, FileText, Github, Linkedin } from "lucide-react";
+import { ChevronDown, FileText, Github, Linkedin, Instagram,Link } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -56,6 +56,28 @@ export default function Hero() {
             >
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn Profile</span>
+            </a>
+          </Button>
+          <Button variant="ghost" size="icon" asChild>
+            <a
+              href="https://www.instagram.com/akshayjegaonkar/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary"
+            >
+              <Instagram className="h-5 w-5" />
+              <span className="sr-only">Instagram Profile</span>
+            </a>
+          </Button>
+          <Button variant="ghost" size="icon" asChild>
+            <a
+              href="https://www.credly.com/users/akshay-jegaonkar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary"
+            >
+              <Link className="h-5 w-5" />
+              <span className="sr-only">Credly Profile</span>
             </a>
           </Button>
         </div>
