@@ -5,6 +5,23 @@ import { BriefcaseIcon } from "lucide-react";
 
 const experiences = [
   {
+    title: "Google Cloud Arcade Program",
+    company: "Google",
+    period: "",
+    responsibilities: [
+      "Explored cloud technologies through hands-on challenges in real-world scenarios",
+      "Earned skill badges in Cloud Networking, App Development, Data Warehousing, DevOps, and Machine Learning",
+      "Enhanced problem-solving skills and adaptability while unlocking exclusive rewards"
+    ],
+    skills: [
+      "Cloud Networking & Load Balancing",
+      "App Development & Kubernetes Deployment",
+      "BigQuery & Data Warehousing",
+      "DevOps & Infrastructure Automation",
+      "Machine Learning APIs & AI Integration"
+    ]
+},
+  {
     title: "Software Developer",
     company: "TNP Event Planners",
     period: "",
